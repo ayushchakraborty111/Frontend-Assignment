@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+}
+
+div img{
+    width: 100vw;
+    height: 500px;
+}
+
+.child-div1{
+    color: white;
+    font-size: 18px;
+    margin-top: -350px;
+    text-align: center;
+}
+
+.child-div1 button{
+    height: 50px;
+    width: 120px;
+    background-color: black;
+}
+
+.child-div1 button a{
+    color: white;
+    text-decoration: none;
+}
+
+.child-div1 button:hover{
+    background-color: white;
+    color: black;
+}
+
+.child-div1 button:hover a{
+    color: black;
+}
+
+.div2{
+   margin-top: 50px; 
+}
+
+.div2 h1{
+    text-align: center;
+}
+
+.table1 td h1{
+    /* display: flex;
+    position: relative; */
+    margin-left: 550px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.table1 .td1{
+    position: relative;
+    margin-left: 100px;
+}
+
+.table1 .td2{
+    position: relative;
+    margin-right: -40px;
+}
+
+.table1 pre{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+}
+
+.table1 tr{
+    display: flex;
+    margin-left: -10px;
+}
+
+main{
+    width: 100vw;
+}
+
+section{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 30px auto;
+}
+
+figure{
+    width: 350px;
+    border: 1px solid black;
+    justify-content: space-between;
+    margin: 20px;
+    border-radius: 3%;
+    box-shadow: 2px 2px 2px 2px darkgray;
+    background-color: white;
+    text-align: center;
+}
+
+main section figcaption p{
+    font-size: 15px;
+    text-align: center;
+}
+
+figure img{
+    height: 200px;
+    width: 100%;
+}
+
+figure:hover{
+    transform: scale(1.1);
+}
+
+main{
+    background-color: black;
+}
+
+.div4 h1{
+    text-align: center;
+    position: relative;
+    margin-left: 19px;
+}
+
+.div4 pre{
+    text-align: center;
+    position: relative;
+    margin-left: -35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.div5{
+    padding: 0;
+    margin: 0;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.div5 .tad1{
+    background-color: cornflowerblue;
+    color: white;
+    border-collapse: collapse;
+    text-align: center;
+    width: 700px;
+    border: 5px solid cornflowerblue;
+    margin-right: -10px;
+    height: 260px;
+}
+
+.div5 .tad1 #para1{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.div5 .tad1 .tad2 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.div5 .tad2{
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    width: 700px;
+    border: 5px solid darkgray;
+    margin-left: -10px;
+    height: 260px;
+}
+
+/* .div6{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.tabd1{
+    display: flex;
+    margin-right: 600px;   
+    color: white;
+    margin-top: 20px;
+} */
+
+/* .tabd2{
+    display: flex;
+    color: white;
+    margin-left: 500px;
+    margin-bottom:  100px;
+} */
+
+@media screen and (max-width: 620px){
+    .div1, .div2, .div3, .div4, .div5, .div6{
+        flex-direction: column;
+    }
+}
