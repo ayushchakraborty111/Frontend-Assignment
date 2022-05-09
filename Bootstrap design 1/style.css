@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+}
+
+#button-50{
+    border-radius: 50%;
+    color: white;
+    border: 1px solid rgb(98, 163, 228);
+    background-color: rgb(68, 161, 254);
+    margin-bottom: 6%;
+}
+
+#button-51{
+    border-radius: 50%;
+    color: white;
+    border: 1px solid rgb(98, 163, 228);
+    background-color: rgb(68, 161, 254);
+    margin-bottom: 6%;
+}
+
+nav{
+    height: 110px;
+    margin-top: 20px;
+}
+
+#div2{
+    padding: 20px 20px;
+}
+
+#div2 p{
+    font-size: 20px;
+}
+
+#div3{
+    background-color: #f3f3f7;
+    display: flex;
+    justify-content: center;
+}
+
+#space{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#div3-1 .circle-wrap{
+    width: 90px;
+    height: 90px;
+    background-color: #fefcff;
+    border-radius: 50%;
+    border: 1px solid #cdcbd0;
+}
+
+#div3-1 .circle-wrap .circle .mask, .circle-wrap .circle .fill{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+#div3-1 .mask .fill{
+    clip: rect(0px, 45px, 90px, 0);
+    background-color: purple;
+}
+
+#div3-1 .circle-wrap .circle .mask {
+    clip: rect(0px, 90px, 90px, 45px);
+  }
+  
+#div3-1  .mask.full, .circle .fill {
+    animation: fill ease-in-out 3s;
+    transform: rotate(90deg);
+}
+
+#div3-1 .circle-wrap .inside-circle{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: #d2eaf1;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 6.5px;
+    margin-left: 7px;
+    color: purple;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+#div3-2 .circle-wrap{
+    width: 90px;
+    height: 90px;
+    background-color: #fefcff;
+    border-radius: 50%;
+    border: 1px solid #cdcbd0;
+}
+
+#div3-2 .circle-wrap .circle .mask, .circle-wrap .circle .fill{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+#div3-2 .mask .fill{
+    clip: rect(0px, 45px, 90px, 0);
+    background-color: dodgerblue;
+}
+
+#div3-2 .circle-wrap .circle .mask {
+    clip: rect(0px, 90px, 90px, 45px);
+  }
+  
+#div3-2 .mask.full, .circle .fill {
+    animation: ease-in-out 3s;
+  }
+  
+#div3-2 .circle-wrap .inside-circle{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: #d2eaf1;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 6.5px;
+    margin-left: 7px;
+    color: dodgerblue;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+#div3-3 .circle-wrap{
+    width: 90px;
+    height: 90px;
+    background-color: #fefcff;
+    border-radius: 50%;
+    border: 1px solid #cdcbd0;
+}
+
+#div3-3 .circle-wrap .circle .mask, .circle-wrap .circle .fill{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+#div3-3 .mask .fill{
+    clip: rect(0px, 45px, 90px, 0);
+    background-color: rgb(214, 214, 13);
+}
+
+#div3-3 .circle-wrap .circle .mask {
+    clip: rect(0px, 90px, 90px, 45px);
+  }
+  
+#div3-3 .mask.full, .circle .fill {
+    animation: ease-in-out 3s;
+  }
+  
+#div3-3 .circle-wrap .inside-circle{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: #d2eaf1;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 6.5px;
+    margin-left: 7px;
+    color: rgb(214, 214, 13);
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+#div4{
+    display: flex;
+}
+
+.table1, .table2{
+    width: 50%;
+    background-color: #cedadef1;
+}
+
+.table1, .table2{
+    text-align: center;
+}
+
+@media screen and (max-width: 900px){
+    body{
+        overflow-x: hidden;
+        /* zoom: 0.8; */
+    }
+}
+
+#footer .col-sm-6{
+    border: 1px solid #d0d3d6;
+}
