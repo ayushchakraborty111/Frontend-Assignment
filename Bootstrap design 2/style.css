@@ -1,0 +1,49 @@
+/* .circle{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: green;
+} */
+
+.outer-circle{
+    background-color: white;
+    width: 10px;
+    position: absolute;
+    height: 10px;
+    margin-left: 55px;
+    margin-top: -16px;
+    border-radius: 50%;
+}
+
+.circle{
+    background-color: red;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-top: 1.5px;
+    margin-left: 1.6px;
+}
+
+#img1{
+    border: 1px solid rgb(196, 191, 191);
+}
+
+#search{
+    border-radius: 20px 0px 0px 20px;
+}
+
+.badge{
+    float: right;
+    margin-top: -35px;
+}
+
+.px-3{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1200px){
+    body{
+        overflow-y: auto;
+    }
+}
